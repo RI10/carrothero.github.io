@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrot Hero — Official Mini Site</title>
+  <meta name="description" content="Carrot Hero — a clean, honest indie Web3 project. Explore the 3D NFT series on OpenSea and the CRRX token on Base." />
+  <meta name="theme-color" content="#111827" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Carrot Hero — Official Mini Site" />
+  <meta property="og:description" content="3D NFT series + CRRX token on Base. No hype, just building." />
+  <meta property="og:image" content="https://opensea.io/static/images/placeholder.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#121821; --muted:#8a98a7; --text:#e6edf3; --accent:#FF7A00; --baseBlue:#0052FF; --ring: rgba(255,122,0,.25); --radius: 16px;
+    }
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(1200px 800px at 80% -10%, rgba(255,122,0,.12), transparent 60%), var(--bg); color:var(--text)}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1080px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(11,15,20,.9), rgba(11,15,20,.6));backdrop-filter: blur(8px);z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700}
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#ffa64d)}
+    .links a{opacity:.9;margin-left:16px}
+
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:#111723;box-shadow:0 0 0 0 var(--ring);transition: box-shadow .2s, transform .06s}
+    .btn:hover{border-color:rgba(255,255,255,.2)}
+    .btn:active{transform:translateY(1px)}
+    .btn.primary{background:linear-gradient(180deg, #1b2430, #121821); border-color:rgba(255,122,0,.35)}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:64px 0}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}}
+    .h1{font-size:42px;line-height:1.1;margin:0 0 12px}
+    .lead{color:var(--muted);font-size:18px;max-width:56ch}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+    .card{background:linear-gradient(180deg, #141b25, #0f151d);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:18px}
+    .card h3{margin:0 0 8px;font-size:16px}
+    .frame{aspect-ratio:16/10;border-radius:var(--radius);background:#0c121a;border:1px dashed rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .frame img{max-width:100%;height:100%;object-fit:cover;display:block}
+
+    section{padding:34px 0}
+    .section-title{font-size:22px;margin:0 0 8px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    @media (max-width:900px){.grid.cols-3{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid.cols-3{grid-template-columns:1fr}}
+
+    footer{border-top:1px solid rgba(255,255,255,.06);margin-top:28px}
+    .foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:22px 0;color:var(--muted)}
+    .social a{margin-right:14px;opacity:.9}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="dot"></span> Carrot Hero</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#nft">NFT</a>
+        <a href="#token">CRRX</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero">
+      <div>
+        <h1 class="h1">Clean indie Web3: <span style="color:var(--accent)">Carrot Hero</span> &nbsp;·&nbsp; <span class="tag">CRRX on Base</span></h1>
+        <p class="lead">A small, consistent project: 3D cartoon-style NFTs (no text on images) and the CRRX token on Base. We ship quietly, document openly, and avoid hype.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://opensea.io/collection/carrot-hero" target="_blank" rel="noopener">OpenSea Collection <span class="badge">NFT</span></a>
+          <a class="btn" href="https://x.com/RI1032025870" target="_blank" rel="noopener">Twitter / X</a>
+          <a class="btn" href="#token">Token details</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Cover (replace with your image URL)</h3>
+        <div class="frame">
+          <img alt="Carrot Hero teaser" src="https://opensea.io/static/images/placeholder.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About</h2>
+      <p>Carrot Hero is an independent, transparent Web3 experiment. The goal is to build a recognizable 3D character and a small on‑chain economy around it. We prioritize clarity over marketing tricks: stable visual standards, consistent publishing, and public post‑mortems when something fails.</p>
+    </section>
+
+    <section id="nft">
+      <h2 class="section-title">NFT Series</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="frame">
+            <img alt="Carrot Hero NFT #001" src="https://opensea.io/static/images/placeholder.png" />
+          </div>
+          <div style="margin-top:10px;display:flex;justify-content:space-between;align-items:center">
+            <span>#001 — Mission 01</span>
+            <a class="btn" href="https://opensea.io/collection/carrot-hero" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="token">
+      <h2 class="section-title">CRRX Token (Base)</h2>
+      <div class="card">
+        <p><span class="tag">Base</span> &nbsp; <span class="code">ERC‑20</span></p>
+        <div class="grid" style="grid-template-columns: 1.2fr .8fr; gap:18px">
+          <div>
+            <p><b>Contract:</b> <span class="code">0x271eB17040aE44A3487065976Dc46898CbCBcc5D</span></p>
+            <p><b>Total supply:</b> 10,000,000 CRRX</p>
+            <div class="cta">
+              <a class="btn" href="https://app.uniswap.org/#/swap?chain=base" target="_blank" rel="noopener">Swap on Base</a>
+              <a class="btn" href="https://basescan.org/address/0x271eB17040aE44A3487065976Dc46898CbCBcc5D" target="_blank" rel="noopener">View on BaseScan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="links">
+      <h2 class="section-title">Links</h2>
+      <div class="grid cols-3">
+        <a class="card" href="https://opensea.io/collection/carrot-hero" target="_blank" rel="noopener">
+          <h3>OpenSea</h3>
+        </a>
+        <a class="card" href="https://x.com/RI1032025870" target="_blank" rel="noopener">
+          <h3>Twitter / X</h3>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© <span id="y"></span> Carrot Hero. All rights reserved.</div>
+      <div class="social">
+        <a href="https://opensea.io/collection/carrot-hero" target="_blank" rel="noopener">OpenSea</a>
+        <a href="https://x.com/RI1032025870" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small nicety: current year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
