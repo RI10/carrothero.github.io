@@ -4,7 +4,7 @@ Official Carrot Hero website. Showcasing the 3D NFT collection and the CRRX toke
 
 ## Usage
 
-Visit the live website at: [carrothero.github.io](https://carrothero.github.io).
+Visit the live website at: [ri10.github.io/carrothero.github.io](https://ri10.github.io/carrothero.github.io/).
 
 The website showcases the Carrot Hero NFT collection and provides information about the CRRX token on Base.
 
