@@ -46,6 +46,8 @@
     .card h3{margin:0 0 8px;font-size:16px}
     .frame{aspect-ratio:16/10;border-radius:var(--radius);background:#0c121a;border:1px dashed rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;overflow:hidden}
     .frame img{max-width:100%;height:100%;object-fit:cover;display:block}
+    /* square frame for NFTs */
+    .frame.square{aspect-ratio:1/1;}
 
     section{padding:34px 0}
     .section-title{font-size:22px;margin:0 0 8px}
@@ -85,7 +87,7 @@
       </div>
 
       <div class="card">
-        <h3>Cover (replace with your image URL)</h3>
+        <h3>Cover</h3>
         <div class="frame">
           <img alt="Carrot Hero teaser" src="10.jpg" />
         </div>
@@ -94,14 +96,14 @@
 
     <section id="about">
       <h2 class="section-title">About</h2>
-      <p>Carrot Hero is an independent, transparent Web3 experiment. The goal is to build a recognizable 3D character and a small on‑chain economy around it. We prioritize clarity over marketing tricks: stable visual standards, consistent publishing, and public post‑mortems when something fails.</p>
+      <p>Carrot Hero is an independent, transparent Web3 experiment. The goal is to build a recognizable 3D character and a small on-chain economy around it. We prioritize clarity over marketing tricks: stable visual standards, consistent publishing, and public post-mortems when something fails.</p>
     </section>
 
     <section id="nft">
       <h2 class="section-title">NFT Series</h2>
       <div class="grid cols-3">
         <div class="card">
-          <div class="frame">
+          <div class="frame square">
             <img alt="Carrot Hero NFT #001" src="1.jpg" />
           </div>
           <div style="margin-top:10px;display:flex;justify-content:space-between;align-items:center">
@@ -115,7 +117,7 @@
     <section id="token">
       <h2 class="section-title">CRRX Token (Base)</h2>
       <div class="card">
-        <p><span class="tag">Base</span> &nbsp; <span class="code">ERC‑20</span></p>
+        <p><span class="tag">Base</span> &nbsp; <span class="code">ERC-20</span></p>
         <div class="grid" style="grid-template-columns: 1.2fr .8fr; gap:18px">
           <div>
             <p><b>Contract:</b> <span class="code">0x271eB17040aE44A3487065976Dc46898CbCBcc5D</span></p>
