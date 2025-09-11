@@ -10,7 +10,7 @@ The website showcases the Carrot Hero NFT collection and provides information ab
 
 ## Links
 - [OpenSea Collection](https://opensea.io/collection/carrot-hero)
-- [Follow us on Twitter](https://x.com/RI1032025870)
+- [Follow us on Twitter](https://x.com/Carrothero_xyz)
 - [GitHub Repository](https://github.com/RI10/carrothero.github.io)
 
 ## License
